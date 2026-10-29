@@ -8,7 +8,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "20 * * * *" # hourly, after upstream (~:08) publishes
+    - cron: "46 * * * *" # TEMP: verify scheduled run fires
   workflow_dispatch:
 
 jobs:
